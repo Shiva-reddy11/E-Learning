@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import Back from '../../Common/back'
 import ReactPlayer from 'react-player'
 import chooseImg from '../../../Assets/why-choose-us.png'
 import videoicon from '../../../Assets/play-circle.png'
