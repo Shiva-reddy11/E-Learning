@@ -1,0 +1,101 @@
+.loginpage {
+    background-color: white;
+}
+#login-md{
+    height: 100vh;
+    width: 120vh;
+}
+ #login-img{
+    background-size: cover;
+    height: 100vh;
+}
+#login-form{
+    height: 100vh;
+    width: 120vh;
+}
+#login-form h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: #28CB8B;
+}
+#login-form h2{
+    font-size: 22px;
+    font-weight: 400;
+}
+#login-form input , #create-btn ,#login{
+    width: 400px;
+    height: 60px;
+}
+.login-input {
+    text-align: left;
+    border-bottom: 2px solid gray;
+    padding-left: 10px;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+.login-input:focus{
+    outline: none;
+}
+.login-input:hover{
+border-bottom: 2px solid black;
+}
+#login{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+#create-btn {
+    border-radius: 5px;
+    border: 2px solid gray;
+    font-weight: 400;
+    font-size: 17px;
+}
+#create-btn img {
+    height: 35px;
+}
+
+
+
+/* --------------- Signup Page CSS  ---------------------- */
+
+.mt{
+    position: relative;
+    right:110px;
+    top: 20px;
+}
+.click{
+    color: #28CB8B;
+}
+#login-form p{
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    #login-md{
+        display: none;
+    }
+    
+    
+}
+
+@media screen and (min-width:50px) and (max-width:767px){
+
+    #loginpage{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: #f8f8f8;
+       margin-top: 150px;
+       height: 100%;
+    }
+    #login-md{
+        display: none;
+    }
+    #login-form h1 {
+        font-size: 35px;}
+}
