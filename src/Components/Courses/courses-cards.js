@@ -9,7 +9,7 @@ const CoursesCards = () => {
     <>
     <section >
       <div className='bg-white '>
-        <Title title={'All Courses'} subtitle={'Category'}/>
+        <Title title={'All Courses'} subtitle={'Category'} />
         <div id='course-box' className='grid grid-cols-1 gap-2 ml-14 mr-14 mb-14 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4   ' >
         {exploreCourses.map((val,index)=>(
           <div key={index} className='bg-slate-50 border rounded-lg border-gray-600 flex flex-col justify-center items-center p-5 gap-2'>
