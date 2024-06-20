@@ -74,7 +74,7 @@
     }
     
   }
-  @media screen and (min-width:50px) and (max-width:767px)  { 
+  /* @media screen and (min-width:50px) and (max-width:767px)  { 
    
     .title{
       position: relative;
@@ -107,7 +107,7 @@
     flex-direction: column;
 
   }
-   }
+   } */
    
   
    

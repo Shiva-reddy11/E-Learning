@@ -15,8 +15,8 @@ const Hero = () => {
     </div>
            <p className='title'>We collaborate to ensure every student achieves academic, social, and emotional success by working together and providing comprehensive support.</p>
            <div className="button">
-           <Link to={'/courses'}> <button className="primary-btn " id='btn-green'>GET STARTED NOW <i className="fa fa-long-arrow-alt-right"></i></button></Link>
-            <Link to={'/courses'}><button className="primary-btn " >View Course<i className="fa fa-long-arrow-alt-right"></i></button></Link>
+           <Link to={'/courses'}> <button className="primary-btn" id='btn-green'>GET STARTED NOW <i className="fa fa-long-arrow-alt-right"></i></button></Link>
+            <Link to={'/courses'}><button className=" primary-btn" >View Course<i className="fa fa-long-arrow-alt-right"></i></button></Link>
 
            </div>
         </div>

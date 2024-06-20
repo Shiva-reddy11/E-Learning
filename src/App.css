@@ -2,16 +2,18 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #f8f8f8;
-  
+  background-color: #f8f8f8; 
 }
 
 .marginn{
   margin-top: 37%;
 }
+ReactPlayer{
+  width: 400px;
+}
 @media screen and (min-width:50px) and (max-width:767px) {
   .marginn{
-    margin-top: 130%;
+    margin-top: 70%;
   }
   
 }

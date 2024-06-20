@@ -112,7 +112,9 @@ const CoursesDetails = () => {
       <div className='flex justify-center items-center flex-col gap-10 m-9 shadow-sm  lg:max-[2560px]:flex lg:max-[2560px]:flex-row'>
         <div className=' rounded-lg h-auto w-auto'>
           {showVideo ? (
+            
             <ReactPlayer url={selectedVideo} controls />
+           
           ) : (
             <img src={chooseImg} alt="" className="h-[360px] w-[640px]  bg-contain" />
           )}
