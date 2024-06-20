@@ -8,18 +8,18 @@
    ```
      git clone https://github.com/Shiva-reddy11/E-Learning.git
      ```
-   Open project folder then open terminal :
+  - Open project folder then open terminal :
     ```
     npm install
     ```
     
-###  `npm start`
+###  ```npm start ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+     Runs the app in the development mode.\
+     Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+     The page will reload when you make changes.\
+     You may also see any lint errors in the console.
 
 ## Features
 - **Responsiveness**: This webpage is responsive among all devices, ranging from width of below 767px to 1024px and beyond.
